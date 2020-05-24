@@ -226,7 +226,7 @@ These options don't work.
 ### navText
 **NOTE**: Setting options in the HTML-template in the way like
 ```html
-<owl-carousel-o [options]="{navText: [ '<i class="fa-chevron-left"></i>', '<i class="fa-chevron-right></i>"' ]}">
+<owl-carousel-o [options]="{navText: [ '<i class="fa-chevron-left"></i>', '<i class="fa-chevron-right"></i>' ]}">
   <ng-template carouselSlide>Slide</ng-template>
 </owl-carousel-o>
 ```
@@ -234,7 +234,7 @@ will cause the template parse error because of the double quote put around class
 
 ```typescript
 customOptions: OwlOptions = {
- navText: [ '<i class="fa-chevron-left"></i>', '<i class="fa-chevron-right></i>"' ]
+ navText: [ '<i class="fa-chevron-left"></i>', '<i class="fa-chevron-right"></i>' ]
 }
 ```
 and
